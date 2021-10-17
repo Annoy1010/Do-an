@@ -40,7 +40,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label1.Location = new System.Drawing.Point(290, 50);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(173, 39);
+            this.label1.Size = new System.Drawing.Size(169, 38);
             this.label1.TabIndex = 0;
             this.label1.Text = "QUẢN LÝ";
             // 
@@ -74,7 +74,7 @@
             this.btnQuyDinh.Text = "Quy định của thư viện";
             this.btnQuyDinh.UseVisualStyleBackColor = true;
             // 
-            // Form10
+            // QuanLyUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -83,8 +83,8 @@
             this.Controls.Add(this.btnThongTinSach);
             this.Controls.Add(this.btnThongTinCN);
             this.Controls.Add(this.label1);
-            this.Name = "Form10";
-            this.Text = "Form10";
+            this.Name = "QuanLyUser";
+            this.Text = "Thư viện";
             this.ResumeLayout(false);
             this.PerformLayout();
 
