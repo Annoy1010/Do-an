@@ -127,15 +127,15 @@
             this.NgayTra.Name = "NgayTra";
             this.NgayTra.Width = 125;
             // 
-            // Form13
+            // ThongTinSachMuon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1379, 450);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
-            this.Name = "Form13";
-            this.Text = "Form13";
+            this.Name = "ThongTinSachMuon";
+            this.Text = "Thư viện";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
