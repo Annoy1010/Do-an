@@ -11,7 +11,7 @@ namespace DangKy.DAO
     class DataProvider
     {
         private static DataProvider instance;
-        private string connectionStr = "Data Source=DESKTOP-0E1NOTR;Initial Catalog=SignUp;Integrated Security=True";
+        private string connectionStr = "Data Source=DESKTOP-0E1NOTR;Initial Catalog=Library;Integrated Security=True";
 
         public static DataProvider Instance
         {
