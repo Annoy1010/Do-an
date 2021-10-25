@@ -43,16 +43,21 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(486, 21);
+            this.label1.Location = new System.Drawing.Point(483, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(271, 39);
+            this.label1.Size = new System.Drawing.Size(260, 38);
             this.label1.TabIndex = 0;
             this.label1.Text = "THÊM DỮ LIỆU";
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.MaSach,
@@ -62,11 +67,11 @@
             this.TacGia,
             this.TaiBan,
             this.SoLuong});
-            this.dataGridView1.Location = new System.Drawing.Point(50, 100);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 100);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1226, 222);
+            this.dataGridView1.Size = new System.Drawing.Size(1304, 222);
             this.dataGridView1.TabIndex = 1;
             // 
             // MaSach
@@ -74,52 +79,46 @@
             this.MaSach.HeaderText = "Mã sách";
             this.MaSach.MinimumWidth = 6;
             this.MaSach.Name = "MaSach";
-            this.MaSach.Width = 125;
             // 
             // TenSach
             // 
             this.TenSach.HeaderText = "Tên sách";
             this.TenSach.MinimumWidth = 6;
             this.TenSach.Name = "TenSach";
-            this.TenSach.Width = 200;
             // 
             // LoaiSach
             // 
             this.LoaiSach.HeaderText = "Loại sách";
             this.LoaiSach.MinimumWidth = 6;
             this.LoaiSach.Name = "LoaiSach";
-            this.LoaiSach.Width = 200;
             // 
             // NXB
             // 
             this.NXB.HeaderText = "Nhà xuất bản";
             this.NXB.MinimumWidth = 6;
             this.NXB.Name = "NXB";
-            this.NXB.Width = 200;
             // 
             // TacGia
             // 
             this.TacGia.HeaderText = "Tác giả";
             this.TacGia.MinimumWidth = 6;
             this.TacGia.Name = "TacGia";
-            this.TacGia.Width = 200;
             // 
             // TaiBan
             // 
             this.TaiBan.HeaderText = "Lần tái bản";
             this.TaiBan.MinimumWidth = 6;
             this.TaiBan.Name = "TaiBan";
-            this.TaiBan.Width = 125;
             // 
             // SoLuong
             // 
             this.SoLuong.HeaderText = "Số lượng còn lại";
             this.SoLuong.MinimumWidth = 6;
             this.SoLuong.Name = "SoLuong";
-            this.SoLuong.Width = 125;
             // 
             // btnThem
             // 
+            this.btnThem.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnThem.Location = new System.Drawing.Point(508, 343);
             this.btnThem.Name = "btnThem";
@@ -128,7 +127,7 @@
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
             // 
-            // Form7
+            // ThemDuLieu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -136,7 +135,7 @@
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
-            this.Name = "Form7";
+            this.Name = "ThemDuLieu";
             this.Text = "Thư viện";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

@@ -26,5 +26,11 @@ namespace GiaoDien
         {
 
         }
+
+        private void btnDangNhap_Click(object sender, EventArgs e)
+        {
+            QuanLyUser QLUS = new QuanLyUser();
+            QLUS.Show();
+        }
     }
 }

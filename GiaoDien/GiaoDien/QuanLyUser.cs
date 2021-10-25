@@ -16,5 +16,14 @@ namespace GiaoDien
         {
             InitializeComponent();
         }
+
+        private void btnThongTinCN_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void btnThongTinSach_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

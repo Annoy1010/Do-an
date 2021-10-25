@@ -43,9 +43,10 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(500, 44);
+            this.label1.Location = new System.Drawing.Point(458, 43);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(486, 38);
             this.label1.TabIndex = 2;
@@ -54,6 +55,10 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.MaSach,
@@ -76,56 +81,48 @@
             this.MaSach.HeaderText = "Mã sách";
             this.MaSach.MinimumWidth = 6;
             this.MaSach.Name = "MaSach";
-            this.MaSach.Width = 125;
             // 
             // TeSach
             // 
             this.TeSach.HeaderText = "Tên sách";
             this.TeSach.MinimumWidth = 6;
             this.TeSach.Name = "TeSach";
-            this.TeSach.Width = 200;
             // 
             // LoaiSach
             // 
             this.LoaiSach.HeaderText = "Loại sách";
             this.LoaiSach.MinimumWidth = 6;
             this.LoaiSach.Name = "LoaiSach";
-            this.LoaiSach.Width = 200;
             // 
             // NXB
             // 
             this.NXB.HeaderText = "Nhà xuất bản";
             this.NXB.MinimumWidth = 6;
             this.NXB.Name = "NXB";
-            this.NXB.Width = 200;
             // 
             // TacGia
             // 
             this.TacGia.HeaderText = "Tác giả";
             this.TacGia.MinimumWidth = 6;
             this.TacGia.Name = "TacGia";
-            this.TacGia.Width = 200;
             // 
             // TaiBan
             // 
             this.TaiBan.HeaderText = "Lần tái bản";
             this.TaiBan.MinimumWidth = 6;
             this.TaiBan.Name = "TaiBan";
-            this.TaiBan.Width = 125;
             // 
             // NgayMuon
             // 
             this.NgayMuon.HeaderText = "Ngày mượn";
             this.NgayMuon.MinimumWidth = 6;
             this.NgayMuon.Name = "NgayMuon";
-            this.NgayMuon.Width = 125;
             // 
             // NgayTra
             // 
             this.NgayTra.HeaderText = "Ngày trả";
             this.NgayTra.MinimumWidth = 6;
             this.NgayTra.Name = "NgayTra";
-            this.NgayTra.Width = 125;
             // 
             // ThongTinSachMuon
             // 

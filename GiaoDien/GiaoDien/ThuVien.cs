@@ -16,5 +16,18 @@ namespace GiaoDien
         {
             InitializeComponent();
         }
+
+        private void btnDangNhap_Click(object sender, EventArgs e)
+        {
+
+           QuanLyAdmin ttcn = new QuanLyAdmin();
+            ttcn.Show();
+        }
+
+        private void btnDangKy_Click(object sender, EventArgs e)
+        {
+            DangKy dangKy= new DangKy();
+            dangKy.Show();
+        }
     }
 }
