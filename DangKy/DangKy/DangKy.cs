@@ -17,7 +17,6 @@ namespace DangKy
         {
             InitializeComponent();
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             string user = textBox1.Text;
@@ -47,6 +46,7 @@ namespace DangKy
                             MessageBox.Show("Tên đăng nhập đã tồn tại. Vui lòng kiểm tra lại.");
                         else
                         {
+                            MessageBox.Show("Đăng ký thành công!!!");
                             textBox1.Clear();
                             textBox2.Clear();
                             textBox3.Clear();
