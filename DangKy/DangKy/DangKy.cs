@@ -46,7 +46,7 @@ namespace DangKy
                             MessageBox.Show("Tên đăng nhập đã tồn tại. Vui lòng kiểm tra lại.");
                         else
                         {
-                            MessageBox.Show("Đăng ký thành công!!!");
+                            MessageBox.Show("Đăng ký thành công !!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             textBox1.Clear();
                             textBox2.Clear();
                             textBox3.Clear();
@@ -87,7 +87,8 @@ namespace DangKy
 
         int CheckUserExist(string user, string pass, string fullname, string age, string passport, string phone)
         {
-            int SuccessRows = DataProvider.Instance.ExecuteInsertUserQuery(new object[] { user, pass, fullname, age, passport, phone, 1, 0 });
+            string query = "EXEC Add_Account @TENDN , @MATKHAU , @HOTEN , @TUOI , @CMND , @SDT , @QUYENMUON , @QUYENQL";
+            int SuccessRows = DataProvider.Instance.ExecuteNonQuery(query, new object[] { user, pass, fullname, age, passport, phone, 1, 0 });
             return SuccessRows;
         }
 
