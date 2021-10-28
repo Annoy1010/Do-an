@@ -36,38 +36,44 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(290, 50);
+            this.label1.Location = new System.Drawing.Point(345, 58);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 38);
+            this.label1.Size = new System.Drawing.Size(173, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "QUẢN LÝ";
             // 
             // btnThongTinCN
             // 
+            this.btnThongTinCN.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnThongTinCN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnThongTinCN.Location = new System.Drawing.Point(261, 165);
+            this.btnThongTinCN.Location = new System.Drawing.Point(323, 149);
             this.btnThongTinCN.Name = "btnThongTinCN";
             this.btnThongTinCN.Size = new System.Drawing.Size(251, 72);
             this.btnThongTinCN.TabIndex = 1;
             this.btnThongTinCN.Text = "Thông tin cá nhân";
             this.btnThongTinCN.UseVisualStyleBackColor = true;
+            this.btnThongTinCN.Click += new System.EventHandler(this.btnThongTinCN_Click);
             // 
             // btnThongTinSach
             // 
+            this.btnThongTinSach.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnThongTinSach.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnThongTinSach.Location = new System.Drawing.Point(261, 263);
+            this.btnThongTinSach.Location = new System.Drawing.Point(323, 263);
             this.btnThongTinSach.Name = "btnThongTinSach";
             this.btnThongTinSach.Size = new System.Drawing.Size(251, 72);
             this.btnThongTinSach.TabIndex = 2;
             this.btnThongTinSach.Text = "Thông tin sách";
             this.btnThongTinSach.UseVisualStyleBackColor = true;
+            this.btnThongTinSach.Click += new System.EventHandler(this.btnThongTinSach_Click);
             // 
             // btnQuyDinh
             // 
+            this.btnQuyDinh.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnQuyDinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnQuyDinh.Location = new System.Drawing.Point(261, 379);
+            this.btnQuyDinh.Location = new System.Drawing.Point(323, 379);
             this.btnQuyDinh.Name = "btnQuyDinh";
             this.btnQuyDinh.Size = new System.Drawing.Size(251, 72);
             this.btnQuyDinh.TabIndex = 3;

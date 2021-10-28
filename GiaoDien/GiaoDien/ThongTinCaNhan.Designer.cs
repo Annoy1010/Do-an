@@ -41,6 +41,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label1.Location = new System.Drawing.Point(373, 59);
@@ -51,38 +52,43 @@
             // 
             // txtDT
             // 
+            this.txtDT.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtDT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtDT.Location = new System.Drawing.Point(450, 317);
             this.txtDT.Name = "txtDT";
-            this.txtDT.Size = new System.Drawing.Size(401, 30);
+            this.txtDT.Size = new System.Drawing.Size(418, 30);
             this.txtDT.TabIndex = 22;
             // 
             // txtCMND
             // 
+            this.txtCMND.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtCMND.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtCMND.Location = new System.Drawing.Point(450, 268);
             this.txtCMND.Name = "txtCMND";
-            this.txtCMND.Size = new System.Drawing.Size(401, 30);
+            this.txtCMND.Size = new System.Drawing.Size(418, 30);
             this.txtCMND.TabIndex = 21;
             // 
             // txtTuoi
             // 
+            this.txtTuoi.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtTuoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtTuoi.Location = new System.Drawing.Point(450, 221);
             this.txtTuoi.Name = "txtTuoi";
-            this.txtTuoi.Size = new System.Drawing.Size(401, 30);
+            this.txtTuoi.Size = new System.Drawing.Size(418, 30);
             this.txtTuoi.TabIndex = 20;
             // 
             // txtHoTen
             // 
+            this.txtHoTen.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtHoTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtHoTen.Location = new System.Drawing.Point(450, 174);
             this.txtHoTen.Name = "txtHoTen";
-            this.txtHoTen.Size = new System.Drawing.Size(401, 30);
+            this.txtHoTen.Size = new System.Drawing.Size(418, 30);
             this.txtHoTen.TabIndex = 19;
             // 
             // label8
             // 
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label8.Location = new System.Drawing.Point(231, 322);
@@ -93,6 +99,7 @@
             // 
             // label7
             // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label7.Location = new System.Drawing.Point(231, 273);
@@ -103,6 +110,7 @@
             // 
             // label6
             // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label6.Location = new System.Drawing.Point(231, 226);
@@ -113,6 +121,7 @@
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label5.Location = new System.Drawing.Point(231, 179);

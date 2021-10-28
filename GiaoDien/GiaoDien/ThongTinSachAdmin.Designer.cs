@@ -45,9 +45,10 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(412, 39);
+            this.label1.Location = new System.Drawing.Point(448, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(313, 38);
             this.label1.TabIndex = 0;
@@ -55,6 +56,10 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.MaSach,
@@ -64,11 +69,11 @@
             this.TacGia,
             this.TaiBan,
             this.SoLuong});
-            this.dataGridView1.Location = new System.Drawing.Point(39, 97);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 101);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1083, 241);
+            this.dataGridView1.Size = new System.Drawing.Size(1158, 241);
             this.dataGridView1.TabIndex = 1;
             // 
             // MaSach
@@ -77,7 +82,6 @@
             this.MaSach.MinimumWidth = 6;
             this.MaSach.Name = "MaSach";
             this.MaSach.ReadOnly = true;
-            this.MaSach.Width = 125;
             // 
             // TenSach
             // 
@@ -85,7 +89,6 @@
             this.TenSach.MinimumWidth = 6;
             this.TenSach.Name = "TenSach";
             this.TenSach.ReadOnly = true;
-            this.TenSach.Width = 200;
             // 
             // LoaiSach
             // 
@@ -93,7 +96,6 @@
             this.LoaiSach.MinimumWidth = 6;
             this.LoaiSach.Name = "LoaiSach";
             this.LoaiSach.ReadOnly = true;
-            this.LoaiSach.Width = 200;
             // 
             // NXB
             // 
@@ -101,7 +103,6 @@
             this.NXB.MinimumWidth = 6;
             this.NXB.Name = "NXB";
             this.NXB.ReadOnly = true;
-            this.NXB.Width = 125;
             // 
             // TacGia
             // 
@@ -109,7 +110,6 @@
             this.TacGia.MinimumWidth = 6;
             this.TacGia.Name = "TacGia";
             this.TacGia.ReadOnly = true;
-            this.TacGia.Width = 150;
             // 
             // TaiBan
             // 
@@ -117,7 +117,6 @@
             this.TaiBan.MinimumWidth = 6;
             this.TaiBan.Name = "TaiBan";
             this.TaiBan.ReadOnly = true;
-            this.TaiBan.Width = 125;
             // 
             // SoLuong
             // 
@@ -125,10 +124,10 @@
             this.SoLuong.MinimumWidth = 6;
             this.SoLuong.Name = "SoLuong";
             this.SoLuong.ReadOnly = true;
-            this.SoLuong.Width = 150;
             // 
             // btnThem
             // 
+            this.btnThem.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnThem.Location = new System.Drawing.Point(242, 361);
             this.btnThem.Name = "btnThem";
@@ -139,8 +138,9 @@
             // 
             // btnSua
             // 
+            this.btnSua.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnSua.Location = new System.Drawing.Point(472, 361);
+            this.btnSua.Location = new System.Drawing.Point(504, 361);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(186, 55);
             this.btnSua.TabIndex = 3;
@@ -149,6 +149,7 @@
             // 
             // btnXoa
             // 
+            this.btnXoa.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnXoa.Location = new System.Drawing.Point(748, 361);
             this.btnXoa.Name = "btnXoa";
@@ -157,7 +158,7 @@
             this.btnXoa.Text = "Xóa dữ liệu";
             this.btnXoa.UseVisualStyleBackColor = true;
             // 
-            // Form6
+            // ThongTinSachAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -167,7 +168,7 @@
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
-            this.Name = "Form6";
+            this.Name = "ThongTinSachAdmin";
             this.Text = "Thư viện";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
