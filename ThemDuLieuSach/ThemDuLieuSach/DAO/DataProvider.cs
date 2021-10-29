@@ -58,8 +58,9 @@ namespace ThemDuLieuSach.DAO
                     {
                         connection.Close();
                     }
+                }
+                return data;
             }
-            return data;
         }
     }
 }
