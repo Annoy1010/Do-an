@@ -35,19 +35,29 @@ namespace ThemDuLieuSach.DAO
                 SqlCommand command = new SqlCommand(query, connection);
                 if (parameter != null)
                 {
-                    string[] listPara = query.Split(' ');
-                    int i = 0;
-                    foreach (var item in listPara)
+                    try
                     {
-                        if (item.Contains('@'))
+                        string[] listPara = query.Split(' ');
+                        int i = 0;
+                        foreach (var item in listPara)
                         {
-                            command.Parameters.AddWithValue(item, parameter[i]);
-                            i++;
+                            if (item.Contains('@'))
+                            {
+                                command.Parameters.AddWithValue(item, parameter[i]);
+                                i++;
+                            }
                         }
+                        data = command.ExecuteNonQuery();
                     }
-                }
-                data = command.ExecuteNonQuery();
-                connection.Close();
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("Error: " + e);
+                        Console.WriteLine(e.StackTrace);
+                    }
+                    finally
+                    {
+                        connection.Close();
+                    }
             }
             return data;
         }
