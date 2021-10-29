@@ -27,22 +27,22 @@ namespace DangKy
             string passport = textBox6.Text;
             string phone = textBox7.Text;
             if (IsNullData(user, pass, repass, fullname, age, passport, phone))
-                MessageBox.Show("Nhập không đủ thông tin. Vui lòng kiểm tra lại.");
+                MessageBox.Show("Nhập không đủ thông tin. Vui lòng kiểm tra lại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             else
             {
                 if (!SubmitPassCorrect(pass, repass))
-                    MessageBox.Show("Mật khẩu xác nhận không chính xác. Vui lòng kiểm tra lại.");
+                    MessageBox.Show("Mật khẩu xác nhận không chính xác. Vui lòng kiểm tra lại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 else
                 {
                     if (!IsValidNumber(age))
-                        MessageBox.Show("Thông tin 'Tuổi' không chính xác. Vui lòng kiểm tra lại.");
-                    else if (!IsValidNumber(passport))
-                        MessageBox.Show("Thông tin 'Chứng minh thư' không chính xác. Vui lòng kiểm tra lại.");
-                    else if (!IsValidNumber(phone))
-                        MessageBox.Show("Thông tin 'Số điện thoại' không chính xác. Vui lòng kiểm tra lại.");
+                        MessageBox.Show("Thông tin 'Tuổi' không chính xác. Vui lòng kiểm tra lại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    else if (!IsValidNumber(passport) || passport.Length < 9)
+                        MessageBox.Show("Thông tin 'Chứng minh nhân dân ' không chính xác. Vui lòng kiểm tra lại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    else if (!IsValidNumber(phone) || phone.Length < 10)
+                        MessageBox.Show("Thông tin 'Số điện thoại' không chính xác. Vui lòng kiểm tra lại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     else
                     {
-                        if (CheckUserExist(user, pass, fullname, age, passport, phone) == 0)
+                        if (CheckUserExist(user, pass, fullname, age, passport, phone) == 0)  /// Bị lỗi khi trùng tên đăng nhập
                             MessageBox.Show("Tên đăng nhập đã tồn tại. Vui lòng kiểm tra lại.");
                         else
                         {
