@@ -1,0 +1,11 @@
+D:\Năm 2\Lập Trình Trực Quan\DOAN\GiơiThieuApp\GiơiThieuApp\bin\Debug\GiơiThieuApp.exe.config
+D:\Năm 2\Lập Trình Trực Quan\DOAN\GiơiThieuApp\GiơiThieuApp\bin\Debug\GiơiThieuApp.exe
+D:\Năm 2\Lập Trình Trực Quan\DOAN\GiơiThieuApp\GiơiThieuApp\bin\Debug\GiơiThieuApp.pdb
+D:\Năm 2\Lập Trình Trực Quan\DOAN\GiơiThieuApp\GiơiThieuApp\obj\Debug\GiơiThieuApp.csproj.AssemblyReference.cache
+D:\Năm 2\Lập Trình Trực Quan\DOAN\GiơiThieuApp\GiơiThieuApp\obj\Debug\GiơiThieuApp.csproj.SuggestedBindingRedirects.cache
+D:\Năm 2\Lập Trình Trực Quan\DOAN\GiơiThieuApp\GiơiThieuApp\obj\Debug\GiơiThieuApp.Form1.resources
+D:\Năm 2\Lập Trình Trực Quan\DOAN\GiơiThieuApp\GiơiThieuApp\obj\Debug\GiơiThieuApp.Properties.Resources.resources
+D:\Năm 2\Lập Trình Trực Quan\DOAN\GiơiThieuApp\GiơiThieuApp\obj\Debug\GiơiThieuApp.csproj.GenerateResource.cache
+D:\Năm 2\Lập Trình Trực Quan\DOAN\GiơiThieuApp\GiơiThieuApp\obj\Debug\GiơiThieuApp.csproj.CoreCompileInputs.cache
+D:\Năm 2\Lập Trình Trực Quan\DOAN\GiơiThieuApp\GiơiThieuApp\obj\Debug\GiơiThieuApp.exe
+D:\Năm 2\Lập Trình Trực Quan\DOAN\GiơiThieuApp\GiơiThieuApp\obj\Debug\GiơiThieuApp.pdb
