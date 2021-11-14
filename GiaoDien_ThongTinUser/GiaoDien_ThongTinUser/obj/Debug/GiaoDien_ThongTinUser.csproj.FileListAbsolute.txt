@@ -1,0 +1,10 @@
+C:\Users\asus\source\repos\GiaoDien_ThongTinUser\GiaoDien_ThongTinUser\obj\Debug\GiaoDien_ThongTinUser.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\GiaoDien_ThongTinUser\GiaoDien_ThongTinUser\obj\Debug\GiaoDien_ThongTinUser.Properties.Resources.resources
+C:\Users\asus\source\repos\GiaoDien_ThongTinUser\GiaoDien_ThongTinUser\obj\Debug\GiaoDien_ThongTinUser.csproj.GenerateResource.cache
+C:\Users\asus\source\repos\GiaoDien_ThongTinUser\GiaoDien_ThongTinUser\obj\Debug\GiaoDien_ThongTinUser.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\GiaoDien_ThongTinUser\GiaoDien_ThongTinUser\bin\Debug\GiaoDien_ThongTinUser.exe.config
+C:\Users\asus\source\repos\GiaoDien_ThongTinUser\GiaoDien_ThongTinUser\bin\Debug\GiaoDien_ThongTinUser.exe
+C:\Users\asus\source\repos\GiaoDien_ThongTinUser\GiaoDien_ThongTinUser\bin\Debug\GiaoDien_ThongTinUser.pdb
+C:\Users\asus\source\repos\GiaoDien_ThongTinUser\GiaoDien_ThongTinUser\obj\Debug\GiaoDien_ThongTinUser.Form1.resources
+C:\Users\asus\source\repos\GiaoDien_ThongTinUser\GiaoDien_ThongTinUser\obj\Debug\GiaoDien_ThongTinUser.exe
+C:\Users\asus\source\repos\GiaoDien_ThongTinUser\GiaoDien_ThongTinUser\obj\Debug\GiaoDien_ThongTinUser.pdb
