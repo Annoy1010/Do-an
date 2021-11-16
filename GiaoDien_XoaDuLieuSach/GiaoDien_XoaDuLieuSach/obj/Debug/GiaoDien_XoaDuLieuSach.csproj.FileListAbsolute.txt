@@ -1,0 +1,10 @@
+C:\Users\asus\source\repos\GiaoDien_XoaDuLieuSach\GiaoDien_XoaDuLieuSach\bin\Debug\GiaoDien_XoaDuLieuSach.exe.config
+C:\Users\asus\source\repos\GiaoDien_XoaDuLieuSach\GiaoDien_XoaDuLieuSach\bin\Debug\GiaoDien_XoaDuLieuSach.exe
+C:\Users\asus\source\repos\GiaoDien_XoaDuLieuSach\GiaoDien_XoaDuLieuSach\bin\Debug\GiaoDien_XoaDuLieuSach.pdb
+C:\Users\asus\source\repos\GiaoDien_XoaDuLieuSach\GiaoDien_XoaDuLieuSach\obj\Debug\GiaoDien_XoaDuLieuSach.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\GiaoDien_XoaDuLieuSach\GiaoDien_XoaDuLieuSach\obj\Debug\GiaoDien_XoaDuLieuSach.Properties.Resources.resources
+C:\Users\asus\source\repos\GiaoDien_XoaDuLieuSach\GiaoDien_XoaDuLieuSach\obj\Debug\GiaoDien_XoaDuLieuSach.csproj.GenerateResource.cache
+C:\Users\asus\source\repos\GiaoDien_XoaDuLieuSach\GiaoDien_XoaDuLieuSach\obj\Debug\GiaoDien_XoaDuLieuSach.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\GiaoDien_XoaDuLieuSach\GiaoDien_XoaDuLieuSach\obj\Debug\GiaoDien_XoaDuLieuSach.exe
+C:\Users\asus\source\repos\GiaoDien_XoaDuLieuSach\GiaoDien_XoaDuLieuSach\obj\Debug\GiaoDien_XoaDuLieuSach.pdb
+C:\Users\asus\source\repos\GiaoDien_XoaDuLieuSach\GiaoDien_XoaDuLieuSach\obj\Debug\GiaoDien.Form1.resources

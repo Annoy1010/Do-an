@@ -1,0 +1,9 @@
+C:\Users\asus\source\repos\GiaoDien\GiaoDien\bin\Debug\GiaoDien.exe.config
+C:\Users\asus\source\repos\GiaoDien\GiaoDien\bin\Debug\GiaoDien.exe
+C:\Users\asus\source\repos\GiaoDien\GiaoDien\bin\Debug\GiaoDien.pdb
+C:\Users\asus\source\repos\GiaoDien\GiaoDien\obj\Debug\GiaoDien.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\GiaoDien\GiaoDien\obj\Debug\GiaoDien.Properties.Resources.resources
+C:\Users\asus\source\repos\GiaoDien\GiaoDien\obj\Debug\GiaoDien.csproj.GenerateResource.cache
+C:\Users\asus\source\repos\GiaoDien\GiaoDien\obj\Debug\GiaoDien.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\GiaoDien\GiaoDien\obj\Debug\GiaoDien.exe
+C:\Users\asus\source\repos\GiaoDien\GiaoDien\obj\Debug\GiaoDien.pdb
