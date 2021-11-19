@@ -37,19 +37,15 @@ namespace ThemDuLieuSach
                     MessageBox.Show("Thông tin 'Số lượng' không hợp lệ. Vui lòng kiểm tra lại.");
                 else
                 {
-                    if (InsertBookData(bookId, bookTitle, bookType, publisher, author, edition, quantity) == 0)
-                        MessageBox.Show("Mã sách đã tồn tại. Vui lòng kiểm tra lại.");
-                    else
-                    {
-                        MessageBox.Show("Thêm dữ liệu thành công !!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        textBox1.Clear();
-                        textBox2.Clear();
-                        textBox3.Clear();
-                        textBox4.Clear();
-                        textBox5.Clear();
-                        textBox6.Clear();
-                        textBox7.Clear();
-                    }
+                    InsertBookData(bookTitle, bookType, publisher, author, edition, quantity);
+                    MessageBox.Show("Thêm dữ liệu thành công !!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    textBox1.Clear();
+                    textBox2.Clear();
+                    textBox3.Clear();
+                    textBox4.Clear();
+                    textBox5.Clear();
+                    textBox6.Clear();
+                    textBox7.Clear();
                 }
             }
         }
@@ -72,11 +68,21 @@ namespace ThemDuLieuSach
                 return false;
             return true;
         }
-        int InsertBookData(string bookId, string bookTitle, string bookType, string publisher, string author, string edition, string quantity)
+        void InsertBookData(string bookTitle, string bookType, string publisher, string author, string edition, string quantity)
         {
-            string query = "EXEC Add_Book @MASA , @TENSA , @LOAISA , @NXB , @TACGIA , @TAIBAN , @SOLUONG";
-            int SuccessRows = DataProvider.Instance.ExecuteNonQuery(query, new object[] { bookId, bookTitle, bookType, publisher, author, edition, quantity });
-            return SuccessRows;
+            string bookId;
+            int SuccessRows = 0;
+            while (SuccessRows <= 0)
+            {
+                bookId = Random().ToString();
+                string query = "EXEC Add_Book @MASA , @TENSA , @LOAISA , @NXB , @TACGIA , @TAIBAN , @SOLUONG";
+                SuccessRows = DataProvider.Instance.ExecuteNonQuery(query, new object[] { bookId, bookTitle, bookType, publisher, author, edition, quantity });
+            }
+        }
+        int Random()
+        {
+            Random rd = new Random();
+            return rd.Next(100000, 999999);
         }
     }
 }
