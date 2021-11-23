@@ -18,31 +18,68 @@ namespace TimKiemSach
             InitializeComponent();
         }
         string cs = ConfigurationManager.ConnectionStrings["CSDL"].ConnectionString;
-        tb thongtin;
+        provider thongtin;
+        string querry;
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            thongtin = new tb();
+            thongtin = new provider();
             try
             {
-                dataGridView1.DataSource = thongtin.getTable();
+                querry = "select* from book";
+                dataGridView1.DataSource = thongtin.ExecuteQuery(querry);
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message,"thông báo",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        SqlDataAdapter DataAdapter;
-        private void txtTimKiem_TextChanged(object sender, EventArgs e)
+
+        private void btnTimKiem_Click(object sender, EventArgs e)
         {
-            SqlConnection cn = new SqlConnection(cs);
-            string querry = "select *from book where TENSA  like N'%" + txtTimKiem.Text + "%'";
-            DataTable dataTable = new DataTable();
-            cn.Open();
-            DataAdapter = new SqlDataAdapter(querry, cn);
-            DataAdapter.Fill(dataTable);
-            dataGridView1.DataSource = dataTable;
-            cn.Close();
+            try
+            {
+                if (string.IsNullOrEmpty(combobox.Text))
+                {
+                    querry = "select *from book where TENSA like N'%" + txtTimKiemTen.Text + "%'";
+                }
+                else if (string.IsNullOrEmpty(txtTimKiemTen.Text))
+                {
+                    querry = "select *from book where LOAISA=N'" + combobox.Text + "'";
+                }
+                else
+                {
+                    querry = "select *from book where TENSA like N'%" + txtTimKiemTen.Text + "%' and LOAISA=N'" + combobox.Text + "'";
+                }
+                dataGridView1.DataSource = thongtin.ExecuteQuery(querry);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        private void combobox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (combobox.SelectedIndex.ToString() == "8")
+                {
+                    combobox.Text = null;
+                }
+                if (string.IsNullOrEmpty(combobox.Text))
+                {
+                    querry = "select *from book";
+                }
+                else
+                {
+                    querry = "select *from book where LOAISA = N'" + combobox.Text + "'";
+                }
+                dataGridView1.DataSource = thongtin.ExecuteQuery(querry);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
