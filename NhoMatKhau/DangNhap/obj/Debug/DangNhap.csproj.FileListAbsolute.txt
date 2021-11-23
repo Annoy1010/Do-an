@@ -1,0 +1,12 @@
+C:\Do-an\Do-an\DangNhap\DangNhap\bin\Debug\DangNhap.exe.config
+C:\Do-an\Do-an\DangNhap\DangNhap\bin\Debug\DangNhap.exe
+C:\Do-an\Do-an\DangNhap\DangNhap\bin\Debug\DangNhap.pdb
+C:\Do-an\Do-an\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.AssemblyReference.cache
+C:\Do-an\Do-an\DangNhap\DangNhap\obj\Debug\DangNhap.frmDangNhap.resources
+C:\Do-an\Do-an\DangNhap\DangNhap\obj\Debug\DangNhap.Properties.Resources.resources
+C:\Do-an\Do-an\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.GenerateResource.cache
+C:\Do-an\Do-an\DangNhap\DangNhap\obj\Debug\DangNhap.csproj.CoreCompileInputs.cache
+C:\Do-an\Do-an\DangNhap\DangNhap\obj\Debug\DangNhap.exe
+C:\Do-an\Do-an\DangNhap\DangNhap\obj\Debug\DangNhap.pdb
+C:\Do-an\Do-an\DangNhap\DangNhap\obj\Debug\DangNhap.AdminForm.resources
+C:\Do-an\Do-an\DangNhap\DangNhap\obj\Debug\DangNhap.UserForm.resources

@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace GiaoDien_ThongKeSachDaDuocMuon.DAO
+{
+    class DataProvider
+    {
+        private string ConnectionSTR = @"Data Source=.\sqlexpress;Initial Catalog=Library;Integrated Security=True";
+        public DataTable ExcuteQuery(string query)
+        {
+            SqlConnection connection = new SqlConnection(ConnectionSTR);
+
+            connection.Open();
+
+            SqlCommand command = new SqlCommand(query, connection);
+
+            DataTable data = new DataTable();
+
+            SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+            adapter.Fill(data);
+            connection.Close();
+            return data;
+        }
+    }
+}
