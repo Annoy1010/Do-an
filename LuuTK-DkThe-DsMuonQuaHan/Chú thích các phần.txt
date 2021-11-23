@@ -1,0 +1,3 @@
+ Lưu tkDn: Chú thích trong code form SignIn
+ Đăng ký thẻ thành viên gồm 2 form: CardRegistration + CardMemberInfo
+ Hiện thị thành viên mượn quá hạn gồm 1 form: MemberBorrowedOverdue
