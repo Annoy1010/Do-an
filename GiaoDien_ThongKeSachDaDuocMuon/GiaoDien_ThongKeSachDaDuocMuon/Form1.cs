@@ -22,7 +22,7 @@ namespace GiaoDien_ThongKeSachDaDuocMuon
         private void LoadBooksWasBorrowed()
         {
             DataProvider provider = new DataProvider();
-            string query = "SELECT BORROW.MASA, BOOK.TENSA, COUNT(Borrow.MASA) AS SOLUONGDAMUON, (BOOK.SOLUONG - COUNT(Borrow.MASA)) AS SOLUONGCONLAI FROM BORROW, BOOK WHERE BORROW.MASA = BOOK.MASA GROUP BY Borrow.MASA, BOOK.TENSA, BOOK.SOLUONG";
+            string query = "select Borrow.MASA, Book.TENSA, SUM(Borrow.Soluong) as sachdangmuon, (Book.SOLUONG - sum(Borrow.SOLUONG)) as soluongconlai   from Borrow, Book where (Borrow.MASA = Book.MASA and Borrow.DATRA = 0) Group by Borrow.MASA, Book.TENSA, book.SOLUONG order by Borrow.MASA asc";
             dataGridView1.DataSource = provider.ExcuteQuery(query);    
         }
     }

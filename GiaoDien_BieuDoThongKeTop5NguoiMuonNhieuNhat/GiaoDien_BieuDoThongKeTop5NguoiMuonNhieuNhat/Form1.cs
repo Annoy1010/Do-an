@@ -37,7 +37,7 @@ namespace GiaoDien_BieuDoThongKeTop5NguoiMuonNhieuNhat
         }
         void LoadAccountList()
         {
-            string query = "select top 5 tendn, count(masa) as soluong from borrow group by tendn order by count(masa) desc;";
+            string query = "select top 5 borrow.tendn, UserAccount.HoTen, sum(Borrow.SOLUONG) as soluongdamuon from borrow, UserAccount where borrow.tendn = UserAccount.tendn Group by Borrow.tendn, UserAccount.HoTen order by sum(borrow.soluong) desc";
             DataProvider provider = new DataProvider();
             dataGridView_top5.DataSource = provider.ExcuteQuery(query);
         }
