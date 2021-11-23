@@ -1,0 +1,11 @@
+D:\Năm 2\Lập Trình Trực Quan\DOAN\DS_MuonQuaHan\DS_MuonQuaHan\bin\Debug\DS_MuonQuaHan.exe.config
+D:\Năm 2\Lập Trình Trực Quan\DOAN\DS_MuonQuaHan\DS_MuonQuaHan\bin\Debug\DS_MuonQuaHan.exe
+D:\Năm 2\Lập Trình Trực Quan\DOAN\DS_MuonQuaHan\DS_MuonQuaHan\bin\Debug\DS_MuonQuaHan.pdb
+D:\Năm 2\Lập Trình Trực Quan\DOAN\DS_MuonQuaHan\DS_MuonQuaHan\obj\Debug\DS_MuonQuaHan.csproj.AssemblyReference.cache
+D:\Năm 2\Lập Trình Trực Quan\DOAN\DS_MuonQuaHan\DS_MuonQuaHan\obj\Debug\DS_MuonQuaHan.csproj.SuggestedBindingRedirects.cache
+D:\Năm 2\Lập Trình Trực Quan\DOAN\DS_MuonQuaHan\DS_MuonQuaHan\obj\Debug\DS_MuonQuaHan.MemberBorrowedOverdue.resources
+D:\Năm 2\Lập Trình Trực Quan\DOAN\DS_MuonQuaHan\DS_MuonQuaHan\obj\Debug\DS_MuonQuaHan.Properties.Resources.resources
+D:\Năm 2\Lập Trình Trực Quan\DOAN\DS_MuonQuaHan\DS_MuonQuaHan\obj\Debug\DS_MuonQuaHan.csproj.GenerateResource.cache
+D:\Năm 2\Lập Trình Trực Quan\DOAN\DS_MuonQuaHan\DS_MuonQuaHan\obj\Debug\DS_MuonQuaHan.csproj.CoreCompileInputs.cache
+D:\Năm 2\Lập Trình Trực Quan\DOAN\DS_MuonQuaHan\DS_MuonQuaHan\obj\Debug\DS_MuonQuaHan.exe
+D:\Năm 2\Lập Trình Trực Quan\DOAN\DS_MuonQuaHan\DS_MuonQuaHan\obj\Debug\DS_MuonQuaHan.pdb
