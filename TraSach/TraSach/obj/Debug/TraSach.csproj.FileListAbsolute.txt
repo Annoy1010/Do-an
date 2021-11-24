@@ -1,0 +1,11 @@
+D:\Năm 2\Lập Trình Trực Quan\DOAN\TraSach\TraSach\bin\Debug\TraSach.exe.config
+D:\Năm 2\Lập Trình Trực Quan\DOAN\TraSach\TraSach\bin\Debug\TraSach.exe
+D:\Năm 2\Lập Trình Trực Quan\DOAN\TraSach\TraSach\bin\Debug\TraSach.pdb
+D:\Năm 2\Lập Trình Trực Quan\DOAN\TraSach\TraSach\obj\Debug\TraSach.csproj.AssemblyReference.cache
+D:\Năm 2\Lập Trình Trực Quan\DOAN\TraSach\TraSach\obj\Debug\TraSach.csproj.SuggestedBindingRedirects.cache
+D:\Năm 2\Lập Trình Trực Quan\DOAN\TraSach\TraSach\obj\Debug\TraSach.ThongTinSachTra.resources
+D:\Năm 2\Lập Trình Trực Quan\DOAN\TraSach\TraSach\obj\Debug\TraSach.Properties.Resources.resources
+D:\Năm 2\Lập Trình Trực Quan\DOAN\TraSach\TraSach\obj\Debug\TraSach.csproj.GenerateResource.cache
+D:\Năm 2\Lập Trình Trực Quan\DOAN\TraSach\TraSach\obj\Debug\TraSach.csproj.CoreCompileInputs.cache
+D:\Năm 2\Lập Trình Trực Quan\DOAN\TraSach\TraSach\obj\Debug\TraSach.exe
+D:\Năm 2\Lập Trình Trực Quan\DOAN\TraSach\TraSach\obj\Debug\TraSach.pdb

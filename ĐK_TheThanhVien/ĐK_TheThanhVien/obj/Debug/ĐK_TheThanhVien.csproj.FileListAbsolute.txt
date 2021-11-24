@@ -1,0 +1,12 @@
+D:\Năm 2\Lập Trình Trực Quan\DOAN\ĐK_TheThanhVien\ĐK_TheThanhVien\bin\Debug\ĐK_TheThanhVien.exe.config
+D:\Năm 2\Lập Trình Trực Quan\DOAN\ĐK_TheThanhVien\ĐK_TheThanhVien\bin\Debug\ĐK_TheThanhVien.exe
+D:\Năm 2\Lập Trình Trực Quan\DOAN\ĐK_TheThanhVien\ĐK_TheThanhVien\bin\Debug\ĐK_TheThanhVien.pdb
+D:\Năm 2\Lập Trình Trực Quan\DOAN\ĐK_TheThanhVien\ĐK_TheThanhVien\obj\Debug\ĐK_TheThanhVien.csproj.AssemblyReference.cache
+D:\Năm 2\Lập Trình Trực Quan\DOAN\ĐK_TheThanhVien\ĐK_TheThanhVien\obj\Debug\ĐK_TheThanhVien.csproj.SuggestedBindingRedirects.cache
+D:\Năm 2\Lập Trình Trực Quan\DOAN\ĐK_TheThanhVien\ĐK_TheThanhVien\obj\Debug\ĐK_TheThanhVien.CardRegistration.resources
+D:\Năm 2\Lập Trình Trực Quan\DOAN\ĐK_TheThanhVien\ĐK_TheThanhVien\obj\Debug\ĐK_TheThanhVien.MemberCardInfo.resources
+D:\Năm 2\Lập Trình Trực Quan\DOAN\ĐK_TheThanhVien\ĐK_TheThanhVien\obj\Debug\ĐK_TheThanhVien.Properties.Resources.resources
+D:\Năm 2\Lập Trình Trực Quan\DOAN\ĐK_TheThanhVien\ĐK_TheThanhVien\obj\Debug\ĐK_TheThanhVien.csproj.GenerateResource.cache
+D:\Năm 2\Lập Trình Trực Quan\DOAN\ĐK_TheThanhVien\ĐK_TheThanhVien\obj\Debug\ĐK_TheThanhVien.csproj.CoreCompileInputs.cache
+D:\Năm 2\Lập Trình Trực Quan\DOAN\ĐK_TheThanhVien\ĐK_TheThanhVien\obj\Debug\ĐK_TheThanhVien.exe
+D:\Năm 2\Lập Trình Trực Quan\DOAN\ĐK_TheThanhVien\ĐK_TheThanhVien\obj\Debug\ĐK_TheThanhVien.pdb
